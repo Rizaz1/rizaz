@@ -1,0 +1,15 @@
+class EntryAnalyzer {
+   public:
+     bool Analyze( std::stringename ) {
+        if( ename.size() < 2 ) {
+           webService.LogError( "Error: "+ ename );
+           return false;
+        }
+        if( false== dbManager.IsValid( ename ) )
+           return false;
+
+        return true;
+     }
+   private:
+      DatabaseManager  dbManager;  
+         WebService  webService;
